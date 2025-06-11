@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "studio.fantasyit.maid_rpg_task.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "maid_rpg_task.refmap.json",
+  "mixins": [
+    "FollowMaidMixin",
+    "MaidCheckPickupItem",
+    "MaidMoveControlMixin",
+    "MaidRunOneMixin",
+    "VehicleBroomMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
